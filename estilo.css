@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: blanchedalmond;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(64, 195, 127), rgb(23, 78, 50));
+    margin: -22px -10px;
+    padding: 20px;
+}
+
+header > h1 {
+    text-align: center;
+    font: normal 2.5em 'Bebas Neue', cursive;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.205);
+}
+
+header > p {
+    text-align: center;
+    color: white;
+    font: normal 1em Arial;
+    width: 500px;
+    margin: -10px auto 10px auto;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.149);
+}
